@@ -4,7 +4,37 @@
   font-family: Arial, sans-serif;
 }
 
-/* КОНТЕЙНЕР */
+/* БАНЕР */
+.banner {
+  background: #f2f2f2;
+  border-bottom: 2px solid #000;
+}
+
+.banner-container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.banner-logo {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.banner-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* КАТАЛОГ */
 .catalog {
   width: 1000px;
   margin: 30px auto;
