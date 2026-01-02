@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<title>MaxiMarket</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>MaxiMarket</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
-  <div class="header-left">
-    <img src="images/logo.png" alt="MaxiMarket Logo" class="logo-img">
-    <span class="site-name">MaxiMarket</span>
+  <div class="header-container">
+    <div class="logo">LOGO</div>
+    <nav>
+      <a href="#">Каталог</a>
+      <a href="#">Доставка</a>
+      <a href="#">Контакти</a>
+    </nav>
   </div>
-  <nav class="nav">
-    <a href="#catalog">Каталог</a>
-    <a href="#delivery">Доставка</a>
-    <a href="#contacts">Контакти</a>
-  </nav>
 </header>
 
 <section class="hero">
-  <h1>MaxiMarket</h1>
-  <p>Сучасний маркетплейс товарів щоденного попиту</p>
+  <div class="hero-container">
+    <div class="hero-logo">LOGO</div>
+    <div class="hero-text">
+      <h1>MaxiMarket</h1>
+      <p>Сучасний маркетплейс товарів щоденного попиту</p>
+    </div>
+  </div>
 </section>
 
-<section id="catalog" class="catalog">
+<section class="catalog">
   <h2>Каталог товарів</h2>
 
-  <div class="grid">
-    <div class="card">
-      <img src="images/product.jpg" alt="товар1">
-      <h3>товар1</h3>
-      <p class="price">50 грн</p>
+  <div class="products">
+    <!-- 20 товарів -->
+    <!-- копія блоку product = 1 товар -->
+    <!-- Заміни img/1.jpg на свої зображення -->
+
+    <!-- START -->
+    <div class="product">
+      <img src="img/1.jpg" alt="Товар 1">
+      <h3>Товар 1</h3>
+      <span>50 грн</span>
       <button>Замовити</button>
     </div>
 
-    <div class="card">
-      <img src="images/product.jpg" alt="товар2">
-      <h3>товар2</h3>
-      <p class="price">50 грн</p>
-      <button>Замовити</button>
-    </div>
+    <!-- дублюємо -->
+    <!-- 2 -->
+    <div class="product"><img src="img/2.jpg"><h3>Товар 2</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/3.jpg"><h3>Товар 3</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/4.jpg"><h3>Товар 4</h3><span>50 грн</span><button>Замовити</button></div>
 
-    <div class="card">
-      <img src="images/product.jpg" alt="товар3">
-      <h3>товар3</h3>
-      <p class="price">50 грн</p>
-      <button>Замовити</button>
-    </div>
+    <div class="product"><img src="img/5.jpg"><h3>Товар 5</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/6.jpg"><h3>Товар 6</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/7.jpg"><h3>Товар 7</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/8.jpg"><h3>Товар 8</h3><span>50 грн</span><button>Замовити</button></div>
 
-    <div class="card">
-      <img src="images/product.jpg" alt="товар4">
-      <h3>товар4</h3>
-      <p class="price">50 грн</p>
+    <div class="product"><img src="img/9.jpg"><h3>Товар 9</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/10.jpg"><h3>Товар 10</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/11.jpg"><h3>Товар 11</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/12.jpg"><h3>Товар 12</h3><span>50 грн</span><button>Замовити</button></div>
 
-    
+    <div class="product"><img src="img/13.jpg"><h3>Товар 13</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/14.jpg"><h3>Товар 14</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/15.jpg"><h3>Товар 15</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/16.jpg"><h3>Товар 16</h3><span>50 грн</span><button>Замовити</button></div>
+
+    <div class="product"><img src="img/17.jpg"><h3>Товар 17</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/18.jpg"><h3>Товар 18</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/19.jpg"><h3>Товар 19</h3><span>50 грн</span><button>Замовити</button></div>
+    <div class="product"><img src="img/20.jpg"><h3>Товар 20</h3><span>50 грн</span><button>Замовити</button></div>
+    <!-- END -->
+
+  </div>
+</section>
+
+</body>
+</html>
