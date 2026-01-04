@@ -1,74 +1,64 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Arial, sans-serif;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ff7a00, #ffffff);
 }
 
-/* БАНЕР */
-.banner {
-  background: #f2f2f2;
-  border-bottom: 2px solid #000;
+.top-header {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    border-top: 4px solid orange;
+    border-bottom: 4px solid orange;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
-.banner-container {
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
+.logo img {
+    height: 70px;
+    margin-right: 20px;
 }
 
-.banner-logo {
-  width: 120px;
-  height: 120px;
-  border: 2px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  margin-right: 30px;
+.top-header h1 {
+    color: orange;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
-.banner-text {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-/* КАТАЛОГ */
-.catalog {
-  width: 1000px;
-  margin: 30px auto;
-}
-
-/* СІТКА 4 x 5 */
 .products {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border: 2px solid #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
 }
 
-/* КОМІРКА */
 .product {
-  border: 1px solid #000;
-  padding: 10px;
-  text-align: center;
+    text-align: center;
+    color: white;
 }
 
-/* ЗОБРАЖЕННЯ */
 .product img {
-  width: 100%;
-  height: 160px;
-  object-fit: contain;
-  margin-bottom: 8px;
+    max-width: 180px;
+    height: auto;
 }
 
-/* ТЕКСТ */
-.name {
-  font-size: 14px;
-  margin-bottom: 6px;
+.product h3 {
+    margin: 10px 0 5px;
 }
 
-.price {
-  color: red;
-  font-weight: bold;
+.product p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.product span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
 }
