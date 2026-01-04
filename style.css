@@ -34,11 +34,17 @@ body {
 .product {
     text-align: center;
     color: white;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .product img {
-    max-width: 180px;
-    height: auto;
+    max-width: 160px;
+    height: 140px;
+    object-fit: contain;
 }
 
 .product h3 {
